@@ -8,7 +8,7 @@ export const SendPage: React.FC = () => {
 
   return (
     <div className="bg-[rgba(245,245,247,1)] flex max-w-[393px] flex-col overflow-hidden items-center pt-5 pb-[400px] rounded-[18px_18px_0px_0px]">
-      <header className="flex w-full max-w-[353px] items-center gap-[40px_100px] text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap justify-between">
+      <header className="flex w-full max-w-[353px] items-center gap-[40px_100px] text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap justify-between mb-4">
         <button
           className="self-stretch flex w-8 shrink-0 h-8 my-auto"
           aria-label="Close"
@@ -16,7 +16,7 @@ export const SendPage: React.FC = () => {
         <h1 className="self-stretch my-auto">Send</h1>
       </header>
 
-      <main className="w-full max-w-[353px]">
+      <main className="w-full max-w-[353px] space-y-4">
         <AddressInput value={address} onChange={setAddress} />
 
         <ActionCard
@@ -31,11 +31,11 @@ export const SendPage: React.FC = () => {
           onClick={() => console.log('Create link')}
         />
 
-        <section className="self-stretch w-full whitespace-nowrap mt-4">
-          <h2 className="self-stretch flex-1 shrink w-full gap-2.5 text-xl text-[rgba(28,28,28,1)] font-medium px-5">
+        <section className="self-stretch w-full whitespace-nowrap">
+          <h2 className="self-stretch flex-1 shrink w-full gap-2.5 text-xl text-[rgba(28,28,28,1)] font-medium px-5 mb-4">
             Matching
           </h2>
-          <div className="flex w-full flex-col items-center text-lg mt-2">
+          <div className="flex w-full flex-col items-center text-lg">
             <UserCard
               name="alex.tavi"
               address="0x9a23...a37a"
