@@ -14,7 +14,7 @@ export const UserCard: React.FC<UserCardProps> = ({ name, address, verified }) =
         aria-hidden="true"
       />
       <div className="self-stretch flex min-w-60 flex-col items-stretch justify-center flex-1 shrink basis-[0%] my-auto">
-        <div className="flex w-full items-center gap-1 text-[rgba(28,28,28,1)] font-medium">
+        <div className="flex w-full items-center gap-1 text-[rgba(28,28,28,1)] font-medium leading-none">
           <div className="self-stretch my-auto">{name}</div>
           {verified && (
             <div className="self-stretch flex w-5 shrink-0 h-5 my-auto" aria-label="Verified user" />

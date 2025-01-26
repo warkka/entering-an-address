@@ -19,7 +19,7 @@ export const ActionCard: React.FC<ActionCardProps> = ({ title, description, onCl
         aria-hidden="true"
       />
       <div className="self-stretch flex min-w-60 flex-col items-stretch justify-center flex-1 shrink basis-[0%] my-auto">
-        <div className="text-[rgba(28,28,28,1)] font-medium">
+        <div className="text-[rgba(28,28,28,1)] font-medium leading-none">
           {title}
         </div>
         <div className="text-[rgba(143,143,143,1)] font-normal">
