@@ -32,7 +32,7 @@ export const SendPage: React.FC = () => {
         />
 
         <section className="self-stretch w-full whitespace-nowrap">
-          <h2 className="self-stretch flex-1 shrink w-full gap-2.5 text-xl text-[rgba(28,28,28,1)] font-medium px-5 mb-4">
+          <h2 className="text-xl text-[rgba(28,28,28,1)] font-medium px-5 mb-4">
             Matching
           </h2>
           <div className="flex w-full flex-col items-center text-lg">
